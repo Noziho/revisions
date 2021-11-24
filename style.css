@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Prompt', sans-serif;
+}
+
+#restart {
+    padding: 0.8rem;
+}
+
+body {
+    width: 100%;
+    background: #222;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#game {
+    width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.case {
+    width: 33.33%;
+    height: 25rem;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12rem;
+}
+
+.green {
+    color: mediumseagreen;
+}
+
+.red {
+    color: indianred;
+}
+
+
+
+
